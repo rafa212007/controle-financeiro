@@ -233,9 +233,18 @@ http://127.0.0.1:5000
 
 ## 👤 Autor
 
-Desenvolvido por **Rafael** como parte de um estudo prático de desenvolvimento web com Python, Flask e Oracle Database.
+| Função | Membro |
+| :--- | :--- | :--- |
+| Desenvolvedor | **Rafael Augusto Carmona** |
 
-- GitHub: [@rafa212007](https://github.com/rafa212007)
+
+### 📚 Orientação Acadêmica
+* **Curso:** Engenharia de Software – FIAP
+---
+
+### Redes Sociais
+Linkedin: www.linkedin.com/in/rafael-augusto-carmona-287230361
+instagram: rafa_212007
 
 ---
 
