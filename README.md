@@ -203,23 +203,19 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Ilustração do projeto
-
-> *Adicione aqui os prints das telas do projeto (login, cadastro, tela principal e relatório).*
+## 📸 Ilustração do Projeto
 
 <div align="center">
 
-| Login | Cadastro |
-|---|---|
-| *<img width="497" height="533" alt="image" src="https://github.com/user-attachments/assets/0a79506c-886f-4b35-b1cb-cb9cf0826949" />
-* | *<img width="706" height="715" alt="image" src="https://github.com/user-attachments/assets/4662ccbf-ea1a-4829-a966-6ce45d890053" />
-* |
+### 🔑 Autenticação
+| Tela de Login | Tela de Cadastro |
+| :---: | :---: |
+| <img width="400" alt="Tela de Login" src="https://github.com/user-attachments/assets/0a79506c-886f-4b35-b1cb-cb9cf0826949" /> | <img width="400" alt="Tela de Cadastro" src="https://github.com/user-attachments/assets/4662ccbf-ea1a-4829-a966-6ce45d890053" /> |
 
-| Tela principal | Relatório |
-|---|---|
-| *<img width="1046" height="792" alt="image" src="https://github.com/user-attachments/assets/c729825c-fc35-44fa-bbf6-c6476eac10f7" />
-* | *<img width="1027" height="587" alt="image" src="https://github.com/user-attachments/assets/837cef5c-10f4-4a65-94ec-e6785f5e162e" />
-* |
+### 📊 Sistema
+| Tela Principal | Relatório |
+| :---: | :---: |
+| <img width="400" alt="Tela Principal" src="https://github.com/user-attachments/assets/c729825c-fc35-44fa-bbf6-c6476eac10f7" /> | <img width="400" alt="Relatório" src="https://github.com/user-attachments/assets/837cef5c-10f4-4a65-94ec-e6785f5e162e" /> |
 
 </div>
 
