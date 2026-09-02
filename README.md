@@ -243,8 +243,9 @@ http://127.0.0.1:5000
 ---
 
 ### Redes Sociais
-Linkedin: www.linkedin.com/in/rafael-augusto-carmona-287230361
-instagram: rafa_212007
+* **Linkedin:** www.linkedin.com/in/rafael-augusto-carmona-287230361
+
+* **instagram:** rafa_212007
 
 ---
 
