@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <h1>Relatório Financeiro</h1>
+            <a href="{{ url_for('index') }}">← Voltar</a>
+        </div>
+
+        <div class="cards">
+            <div class="card receita">
+                <span>Receitas</span>
+                <strong>R$ {{ "%.2f"|format(receitas) }}</strong>
+            </div>
+            <div class="card despesa">
+                <span>Despesas</span>
+                <strong>R$ {{ "%.2f"|format(despesas) }}</strong>
+            </div>
+            <div class="card saldo">
+                <span>Saldo</span>
+                <strong>R$ {{ "%.2f"|format(saldo) }}</strong>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <h2>Receitas vs Despesas</h2>
+            <canvas id="graficoResumo" height="100"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('graficoResumo');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Receitas', 'Despesas'],
+                datasets: [{
+                    label: 'Valor (R$)',
+                    data: [{{ receitas }}, {{ despesas }}],
+                    backgroundColor: ['#16a34a', '#dc2626'],
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

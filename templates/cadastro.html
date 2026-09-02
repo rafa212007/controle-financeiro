@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <div class="icon">💰</div>
+            </div>
+            <h1>Crie sua conta</h1>
+            <p class="auth-subtitle">Comece a organizar suas finanças agora</p>
+
+            <form method="POST" action="{{ url_for('cadastro') }}">
+                <label>Nome</label>
+                <input type="text" name="nome" placeholder="Seu nome completo" required>
+
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="••••••••" required>
+
+                <button type="submit">Criar conta</button>
+            </form>
+
+            <p class="auth-footer">Já tem conta? <a href="{{ url_for('login') }}">Fazer login</a></p>
+        </div>
+    </div>
+</body>
+</html>
